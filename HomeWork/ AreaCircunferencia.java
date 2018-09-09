@@ -9,6 +9,6 @@ public class AreaCircunferencia{
     System.out.print("Ingresa el valosr de PI 3.1416:");
     PI= ingreso.nextInt();
     Area = R * PI;
-    System.out.println(" El area es :" + Area);
+    System.out.println(" El area es: " + Area);
   }
 }
