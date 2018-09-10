@@ -1,5 +1,5 @@
 import java.util.Scanner;
- public class Sueldo{
+ public class SueldoTrabajador{
   public static void main (String[]args){
   Scanner ingreso= new Scanner(System.in);
   System.out.println("Horas trabajadas: ");
