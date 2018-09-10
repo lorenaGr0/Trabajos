@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class AreaFig{
   public static void main(String[]args){
-      Scanner sc=new Scanne(System.in);
+      Scanner sc=new Scanner (System.in);
       System.out.println("Ingrese el valor de la base: ");
       double R =sc.nextDouble();
       System.out.println("Ingrese el valor de la Hipotenusa");
