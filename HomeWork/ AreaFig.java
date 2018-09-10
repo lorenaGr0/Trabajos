@@ -1,5 +1,5 @@
 import java.util.Scanner;
- public class AreaFig{
+ public class AreaFigura{
   public static void main(String[]args){
     Scanner sc = new Scanner(System.in);
     System.out.println("Ingrese el valor de la base del triangulos: ")
@@ -20,4 +20,4 @@ import java.util.Scanner;
     area=AT*AC;
     System.out.println("El area de la figura es:" + area);
   }
- }
+}
