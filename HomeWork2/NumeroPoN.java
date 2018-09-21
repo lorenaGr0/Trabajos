@@ -5,9 +5,9 @@ public class NumeroPoN{
     System.out.println("Ingrese un numero");
     int NUM = input.nextInt();
     if ( NUM ==0){
-      System.out.println("El numero " + NUM + "Es positivo" );
+      System.out.println(" El numero " + NUM + " Es positivo " );
     }else{
-        System.out.println("El numero " + NUM + "Es negativo" );
+        System.out.println(" El numero " + NUM + " Es negativo " );
     }
 
   }
