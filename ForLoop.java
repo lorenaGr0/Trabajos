@@ -4,17 +4,22 @@ public class ForLoop{
    /*for (inicializar var, condicion, incremento){
 
    }*/
-   int tabla;
-   String salida ="";
+
+  int pregunta;
 
      do{
-         tabla = Integer.parseInt(JOptionPane.showInputDialog("enter a number"));
-       for (int i=0; i < 9; i++ )
+         int tabla = Integer.parseInt(JOptionPane.showInputDialog("enter a number"));
+          String salida ="";
+       for (int i=0; i < 9; i++ ){
          salida += tabla + " x " + (i + 1) + "=" + (i + 1) * tabla+ "\n";
-   }while (tabla != 0);
-   
-   JOptionPane.showMessageDialog(null, salida);
-   /*int tabla= Integer.parseInt(JOptionPane.showInputDialog("Deseas ver otra tabla (s/n)?", tabla));*/
+       }
+      JOptionPane.showMessageDialog(null, salida);
+       pregunta = Integer.parseInt(JOptionPane.showInputDialog("Deseas ver otra tabla escribe 0 ?"));
+   }while (pregunta != 0);
+
+
+
+
 
 
 }
