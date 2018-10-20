@@ -73,6 +73,7 @@ public class CourseImpl1 {
 
                             for (int j = 0; j < curso_temp.size(); j++) {
                                 System.out.println(curso_temp.get(j));
+
                             }
                             temp4 = true;
                         }
@@ -99,7 +100,7 @@ public class CourseImpl1 {
                     if(opc != 6){
                         JOptionPane.showMessageDialog(null, " Eliga una opcion correcta");
                     } else {
-                        JOptionPane.showMessageDialog(null, "Adios");
+                        JOptionPane.showMessageDialog(null, "Salir");
                     }
             }
         } while (opc != 6);
