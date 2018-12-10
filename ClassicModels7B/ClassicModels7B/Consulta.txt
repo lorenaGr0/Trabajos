@@ -1,3 +1,0 @@
-En la tabla employees de tu base de datos ejecutas esta consulta:
-
-UPDATE `employees` SET `officeCode`=`5` WHERE 1
